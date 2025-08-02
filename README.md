@@ -1,5 +1,4 @@
-# DuoLink: A Unified Framework for Link Prediction via Line Graph Node Classification
-
+# DuoLink:  Dual Perspective on Link Prediction via Line Graphs
 ## Overview
 
 Link prediction is a foundational problem in network science with widespread applications ranging from social networks to biological systems. Despite the rise of powerful Graph Neural Networks (GNNs), existing models often fall short of classical heuristic methods on standard benchmarks. We identify two key challenges impeding progress: the prevalent two-stage approach—learning node embeddings followed by independent edge decoding—induces a representation misalignment with the prediction objective; moreover, current GNN architectures inadequately integrate valuable heuristic features, especially under feature heterophily.
