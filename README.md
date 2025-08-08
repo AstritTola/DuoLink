@@ -43,12 +43,12 @@ A simple binary classifier predicts whether an edge exists in the original graph
 ### Homophilic Graphs
 DuoLink-enhanced models (e.g., DL-SAGE, DL-Polynormer) achieve **near-perfect Hits@100** on Cora, Citeseer, and Pubmed.
 
-![Performance Comparison](images/performance_table_homophilic.png)
+![**Homophilic Benchmarks.** Performance comparison across homophilic datasets for various link prediction methods.](images/performance_table_homophilic.png)
 
 ### Heterophilic Graphs
 On datasets like Texas, Cornell, and Actor, DuoLink **outperforms specialized heterophily-aware models** by large margins in AUC.
 
-![Performance Comparison](images/performance_table_heterophilic.png)
+![**Heterophilic Benchmarks.** Performance comparison on link prediction (AUC%) on heterophilic datasets.](images/performance_table_heterophilic.png)
 
 ---
 
